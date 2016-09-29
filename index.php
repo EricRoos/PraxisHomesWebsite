@@ -8,6 +8,19 @@
 	<head>
 		<title>Praxis Homes</title>
 		<?php include('partials/_base_header.php'); ?>
+		<script type="application/ld+json">
+		{
+			"@context": "http://schema.org/",
+			"@type": "Product",
+			"name": "Home Remodeling",
+			"description": "Let us help you design your dream home.",
+			"offers": {
+				"@type": "Offer",
+				"priceCurrency": "USD",
+				"price": "0.00"
+			}
+		}
+		</script>
 	</head>
 
 
