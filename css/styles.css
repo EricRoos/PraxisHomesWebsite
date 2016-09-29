@@ -1,0 +1,222 @@
+html{
+	background-color: #fefefe;
+}
+*{
+	margin: 0, 0;
+}
+.submit-button{
+	margin-top: 5px;
+	background-color: #fefefe;
+	border: 1px solid rgba(0,0,0,.5);
+}
+input{
+	height: 2.0em;
+	font-size: 16px;
+	width: 95%;
+}
+.header-info{
+	display: flex;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+}
+.header-info h2{
+	font-style: italic;
+	font-size: 20px;
+}
+.header-info div ul li{
+	margin-bottom: .5em;
+}
+.header-info div ul li img{
+	margin-right: 1em;
+	height: 16px;
+	width: 16px;
+}
+.section{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-info div ul{
+	list-style: none;
+	margin-left: 0;
+}
+.header-info div{
+	width: 50%;
+}
+.front-image{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	-webkit-filter: opacity(.7);
+}
+.zack-headshot{
+	width: 25%;
+	height: auto;
+	float: right;
+	padding: 20px;
+	padding-top: 0;
+	padding-left:0;
+	border-radius: 100%;
+}
+@media (min-width: 320px) and (max-width: 600px){
+	.zack-headshot{
+		width: 100%;
+	}
+}
+.praxis-top-bar{
+	position: fixed;
+	background-color: #333333;
+	z-index: 999999;
+	color: #efefef;
+	width: 100%;
+	display:flex;
+	height: 35px;
+}
+.praxis-top-bar .left{
+	width: 45%;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+}
+.praxis-top-bar .right{
+	width: 55%;
+	padding-right: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.mobile-nav-right{
+	padding-right: 0px !important;
+}
+.praxis-top-bar .right a:hover {
+	text-decoration: underline;
+}
+.praxis-top-bar .right a{
+	margin-left: 20px;
+	color: white;
+	font-size: 18px;
+	font-variant: small-caps;
+}
+.parallax-logo{
+	width: 100%;
+}
+.praxis-top-bar h1{
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	margin: 0;
+}
+.main-content{
+	background-color: transparent;
+	min-height: 600px;
+}
+.bottom-content .divider{
+	background-color: black;
+	height: 50px;
+	width: 100%;
+}
+.bottom-content{
+	background-color: white;
+	min-height: 400px;
+}
+
+body {
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	font-weight: 200;
+}
+.intro-text h1{
+	letter-spacing: .5em;
+	font-size: 4vw;
+}
+.parallax-background {
+	height: 620px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+}
+
+.intro-text {
+	text-align: center;
+	margin-top: 55px;
+	padding: 20px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid rgba(0,0,0,1);
+	border-radius: 4px;
+}
+.parallax-content {
+	max-width: 100%;
+	position: relative;
+	top: 500px;
+	padding: 0;
+	background-color: rgb(229, 229, 229);
+	border-top: 2px solid black;
+}
+@media (min-width: 320px) and (max-width: 600px){
+	.parallax-content {
+		top: 450px;
+		padding: 10px;
+	}
+	.header-info{
+		flex-direction: column;
+	}
+	.header-info div{
+		width: 100%;
+	}
+	input, label{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.header-info .right{
+		margin-top: 1.5em;
+	}
+}
+@media (min-width: 601px) and (max-width: 900px){
+	.parallax-content {
+		top: 400px;
+		padding: 20px;
+	}
+}
+@media (min-width: 901px){
+	.parallax-content {
+		top: 550px;
+		padding: 20px;
+	}
+}
+.column img{
+	padding:10%;
+}
+.parallax-content .parallax-scroll-nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-graphic-flow{
+	text-align: center
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+	content: '';
+	border: 0;
+}
+.dropdown-link{
+	color: black !important;
+}
+#exampleModalSmall{
+	padding-top: 55px !important;
+}
