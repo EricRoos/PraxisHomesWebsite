@@ -1,8 +1,9 @@
 <?php
-	include('vendor/parsedown/Parsedown.php');
 	include('utils/read_markdown.php');
 	include('vendor/autoload.php');
-	$parser = new \cebe\markdown\GithubMarkdown();
+	use \Michelf\MarkdownExtra;
+	$my_html = MarkdownExtra::defaultTransform("<div markdown='1'>#hello</div>");
+	$parser = new \cebe\markdown\MarkdownExtra();
 ?>
 <html>
 	<head>
@@ -68,8 +69,7 @@
 
 		<div class="parallax-content">
 			<?php 
-				$markdown = getMarkDownContents("about.md");
-				echo $parser->parse($markdown);
+				echo getHtmlFromMarkdown("about.md");
 			?>
 		</div>
 		<div class="reveal" id="exampleModal1" data-reveal>

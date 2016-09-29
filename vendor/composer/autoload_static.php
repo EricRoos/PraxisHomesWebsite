@@ -20,11 +20,22 @@ class ComposerStaticInit863b4556840bfd895d8dbbc6bc9ecbd9
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'M' => 
+        array (
+            'Michelf' => 
+            array (
+                0 => __DIR__ . '/..' . '/michelf/php-markdown',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit863b4556840bfd895d8dbbc6bc9ecbd9::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit863b4556840bfd895d8dbbc6bc9ecbd9::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit863b4556840bfd895d8dbbc6bc9ecbd9::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
