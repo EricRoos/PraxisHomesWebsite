@@ -1,6 +1,6 @@
 <div class='praxis-top-bar'>
 	<div class='left'>
-		<h1>Praxis Homes</h1>
+		<a href='/'><h1>Praxis Homes</h1></a>
 	</div>
 	<div class='right show-for-small-only mobile-nav-right'>
 		<ul class="dropdown menu" data-dropdown-menu>

@@ -2,7 +2,6 @@
 	include('utils/read_markdown.php');
 	include('vendor/autoload.php');
 	use \Michelf\MarkdownExtra;
-	$my_html = MarkdownExtra::defaultTransform("<div markdown='1'>#hello</div>");
 	$parser = new \cebe\markdown\MarkdownExtra();
 ?>
 <html>
