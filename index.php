@@ -1,6 +1,8 @@
 <?php
 	include('vendor/parsedown/Parsedown.php');
 	include('utils/read_markdown.php');
+	include('vendor/autoload.php');
+	$parser = new \cebe\markdown\GithubMarkdown();
 ?>
 <html>
 	<head>
@@ -66,9 +68,8 @@
 
 		<div class="parallax-content">
 			<?php 
-				//include('partials/_about.php'); 
-				$Parsedown = new Parsedown();
-				echo $Parsedown->text(getMarkDownContents("about.md"));	
+				$markdown = getMarkDownContents("about.md");
+				echo $parser->parse($markdown);
 			?>
 		</div>
 		<div class="reveal" id="exampleModal1" data-reveal>
