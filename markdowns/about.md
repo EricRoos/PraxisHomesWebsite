@@ -1,7 +1,7 @@
 <div markdown="1" class='section'>
 #### What we do
 ##### Design
-this is a change
+this is a change again
 There is no job too big or too small for Praxis Homes. We provide a complete design service from small projects like color consulation or a total     room transformation. We will be involved any project large or small; so let the Praxis Homes designers help make your home the one you have always dreamed of.
 
 ##### Realty
