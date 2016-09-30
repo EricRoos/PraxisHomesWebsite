@@ -4,10 +4,7 @@
 	use \Michelf\MarkdownExtra;
 	$parser = new \cebe\markdown\MarkdownExtra();
 
-
-	$projects = array();
-	array_push($projects, array("title" => "Crest Moore", "img_url" => 'https://image.freepik.com/free-vector/coming-soon-clock-sign_23-2147502481.jpg', 'slug' => 'crest-moore'));
-	array_push($projects, array("title" => "Beach Wood", "img_url" => 'https://image.freepik.com/free-vector/coming-soon-clock-sign_23-2147502481.jpg', 'slug' => 'beechwood'));
+	include('data/projects_data.php');
 ?>
 <html>
 	<head>

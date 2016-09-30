@@ -2,10 +2,16 @@ html{
 	background-color: #fefefe;
 	padding-top: 70px;
 }
-*{
-	margin: 0, 0;
+.project{
+	width: 75%;
 }
-
+.project h1{
+	font-size: 32px;
+}
+.project img{
+	float: right;
+	width: 50%;
+}
 .portfolio-item .title{
 	text-align: center;
 }
@@ -70,6 +76,9 @@ input{
 }
 @media (min-width: 320px) and (max-width: 600px){
 	.zack-headshot{
+		width: 100%;
+	}
+	.project img{
 		width: 100%;
 	}
 }
