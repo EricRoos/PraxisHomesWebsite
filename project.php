@@ -7,8 +7,10 @@
 	$project_id = $_GET["id"];
 	$project = $projects[$project_id];
 	$parser = new \cebe\markdown\MarkdownExtra();
+	$md_file = $project["slug"]."-project.md";
+	$description_html = getHtmlFromMarkdown($md_file);
 
-	$description = "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam eget aliquam risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut iaculis justo eu faucibus fermentum. Nunc non i    psum eget nisi semper viverra. Curabitur non lorem commodo, interdum quam vitae, elementum sapien. Vivamus vitae libero a dolor maximus varius eget pulvinar elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent bl    andit tristique lorem in venenatis. Suspendisse et ligula quis erat porttitor dictum. Donec non finibus urna, sit amet commodo turpis. Nullam pulvinar sodales sapien sed ullamcorper. Pellentesque eget bibendum erat. Lorem ipsum dolor sit amet, consectetur adipiscing     elit. Quisque cursus pulvinar pellentesque. Aliquam vitae lacinia arcu, non scelerisque quam."
+	$description = strip_tags($description_html,"<br>");
 ?>
 <html>
 	<head>
@@ -33,7 +35,7 @@
 			<h1><?php echo $project["title"]; ?></h1>
 			<img src='<?php echo $project["img_url"] ?>' />
 			<p>
-				<?php echo $description; ?>
+				<?php echo $description_html ?>
 			</p>
 		</div>
 		<script type='text/javascript' src='/vendor/foundation/js/vendor/jquery.js'></script>
