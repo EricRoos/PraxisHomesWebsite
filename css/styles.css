@@ -2,6 +2,12 @@ html{
 	background-color: #fefefe;
 	padding-top: 70px;
 }
+.stMainServices {
+	height: 32px !important;
+}
+.stHBubble{
+	height: 20px !important;
+}
 .project{
 	width: 75%;
 }

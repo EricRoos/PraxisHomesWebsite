@@ -27,5 +27,11 @@
 				</div>
 			<?php } ?>
 		</div>
+		<script type='text/javascript' src='/vendor/foundation/js/vendor/jquery.js'></script>
+		<script type='text/javascript' src='/vendor/foundation/js/vendor/what-input.js'></script>
+		<script type='text/javascript' src='/vendor/foundation/js/vendor/foundation.js'></script>
+	  <script>
+			$(document).foundation();
+		</script>
 	</body>
 </html>
