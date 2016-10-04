@@ -6,7 +6,7 @@
 ?>
 <html>
   <head>
-    <title>Praxis Homes</title>
+    <title>Praxis Homes - The Trusted Source in Dallas Home Remodleing</title>
     <?php include('partials/_base_header.php'); ?>
     <script type="application/ld+json">
     {

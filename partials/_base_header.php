@@ -9,6 +9,6 @@
 <script type="application/ld+json"> { 
 "@context" : "http://schema.org",
 "@type" : "WebSite",
-"name":"Praxis Homes",
+"name":"Praxis Homes - The Trusted Source in Dallas Home Remodleing",
 "url":"http://www.praxishomestx.com"
 } </script>
