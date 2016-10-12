@@ -1,7 +1,6 @@
 <div markdown="1" class='section'>
 #### What we do
 ##### Design
-this is a change again
 There is no job too big or too small for Praxis Homes. We provide a complete design service from small projects like color consulation or a total     room transformation. We will be involved any project large or small; so let the Praxis Homes designers help make your home the one you have always dreamed of.
 
 ##### Realty
@@ -11,17 +10,15 @@ We offer full realty services from buying, selling, and rental properties. Our r
 
 <div markdown="1" class='section'>
 #### Why choose Praxis Homes
-Bacon ipsum dolor sit amet chicken pork loin hamburger ball tip, swine tenderloin salami meatball boudin tri-tip fatback shank bacon. Pork salami kevin, brisket spare ribs strip steak ham hock porchetta. Pork belly short loin tail porchetta. Pork pig meatball, beef ribs doner jerky tri-tip hamburger filet mignon strip steak ball tip ham tail tongue corned beef.
+Choose Praxis Homes so your home remodel is a breeze. We have experience on our side, and save you the hassle of learning as you go through a project most do only a couple time in their life. With multiple projects under our belt we can assure you a great design with ease and comfort through the whole process. Want us to do it all? We can do that! Want to be involved with the design and selections? we love working our clients on making the home truley unique to the owner. 
 
-Flank spare ribs capicola, strip steak biltong pancetta bresaola tri-tip cow landjaeger. Short ribs sirloin beef ribs, flank capicola ribeye turd    ucken. Sirloin boudin andouille tail. Ham flank tail sausage t-bone, jerky landjaeger kevin porchetta ground round pork belly.
+We will always strive to give you the home you want and deserve. Trust us with your next remodel!
 </div>
 
 <div markdown="1" class='section'>
 #### About Me
 <img src='images/zack-headshot.jpg' class='zack-headshot'/>
-Bacon ipsum dolor sit amet chicken pork loin hamburger ball tip, swine tenderloin salami meatball boudin tri-tip fatback shank bacon. Pork salami k    evin, brisket spare ribs strip steak ham hock porchetta. Pork belly short loin tail porchetta. Pork pig meatball, beef ribs doner jerky tri-tip hamburger filet mignon strip steak ball tip ham tail tongue corned beef.
+I graudated with my Bachelors from Texas State in 2013, and moved to Dallas soon after. Since then I have taken on a multitude of jobs, but finally found my calling as a Real Estate Agent and Design Consultant in 2015. I have always felt I had a creative touch (I did work at a flower shop for a bit a a teen), and glad I found a great outlet to be creative and provde a quality service to my clients.
 
-Bacon ipsum dolor sit amet chicken pork loin hamburger ball tip, swine tenderloin salami meatball boudin tri-tip fatback shank bacon. Pork salami k    evin, brisket spare ribs strip steak ham hock porchetta. Pork belly short loin tail porchetta. Pork pig meatball, beef ribs doner jerky tri-tip hamburger filet mignon strip steak ball tip ham tail tongue corned beef.
-
-Bacon ipsum dolor sit amet chicken pork loin hamburger ball tip, swine tenderloin salami meatball boudin tri-tip fatback shank bacon. Pork salami k    evin, brisket spare ribs strip steak ham hock porchetta. Pork belly short loin tail porchetta. Pork pig meatball, beef ribs doner jerky tri-tip hamburger filet mignon strip steak ball tip ham tail tongue corned beef.
+I pride myself on my ability to self manage and deliver what I promise. These values I carry with me into Praxis Homes as its Founder. And will always strive to give my clients A+ treatment and deliver what they want.
 </div>
