@@ -41,11 +41,6 @@
               <li><img src='/images/checkbox.png'/>Consultations</li>  
               <li><img src='/images/checkbox.png'/>And Much Much More</li>  
             </ul>
-            <form>
-              <label for='email'>For updates and newsletters:</label>
-              <input name='email' style='text' />
-              <input type='submit' class='submit-button'/>
-            </form>
 
           </div>
           <div class='right'>
